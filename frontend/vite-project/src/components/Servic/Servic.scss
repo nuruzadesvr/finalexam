@@ -1,0 +1,67 @@
+.servic__container{
+    width: 100%;
+    height: 80vh;
+
+    background-image: url(https://preview.colorlib.com/theme/consultingbiz/assets/img/gallery/section_bg02.jpg.webp);
+    .servic__main{
+        width: 60%;
+        height: 100%;
+      
+        margin: auto;
+     display: flex;  
+     align-items: center;
+     .servic__main__left{
+         width: 50%;
+         height: 100%;
+         padding-top: 100px;
+         img{
+             width: 25%;
+             height: 60%;
+         }
+     }
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+
+
+
+    .servic__main__right__text{
+        h3{
+            color: white;
+            font-size: 30px;
+            padding-bottom: 30px;
+        }
+        h4{
+            color: #cecece;
+            font-size: 16px;
+            padding-bottom: 30px;
+        }
+        button{
+            width: 223px;
+            height: 54px;
+            background-color: red;
+            color: white;
+            border: none;
+            font-size: 20px;
+        }
+        .servic__main__right__text__main{
+display: flex;
+color: white;
+font-size: 24px;
+padding-bottom: 30px;
+gap: 30px;
+align-items: center;
+
+            .servic__line{
+                width: 130px;
+                height: 3px;
+                background-color: white;
+            }
+        }
+        
+    }
+}

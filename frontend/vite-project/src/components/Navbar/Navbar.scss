@@ -1,0 +1,24 @@
+.navbar__container{
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    .navbar{
+        width: 60%;
+        height:100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .navbar__right ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 35px;
+            list-style: none;
+            li{
+                font-size: 18px;
+                font-family: "Poppins", sans-serif;
+            }
+        }
+    }
+}

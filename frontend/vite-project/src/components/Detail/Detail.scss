@@ -1,0 +1,20 @@
+
+.card{
+    width: 350px;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 78px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.custom__card__image img{
+    width: 348px;
+    height: 200px;
+    object-fit: cover;
+}
+.custom__card__body{
+    padding: 10px;
+    .custom__card__body__price{
+        padding-top: 10px;
+    }
+}
